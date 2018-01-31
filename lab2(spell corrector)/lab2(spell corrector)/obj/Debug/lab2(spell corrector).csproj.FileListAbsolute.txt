@@ -1,0 +1,9 @@
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\bin\Debug\lab2(spell corrector).exe.config
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\bin\Debug\lab2(spell corrector).exe
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\bin\Debug\lab2(spell corrector).pdb
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\obj\Debug\lab2(spell corrector).csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\obj\Debug\lab2_spell_corrector_.Form1.resources
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\obj\Debug\lab2_spell_corrector_.Properties.Resources.resources
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\obj\Debug\lab2(spell corrector).csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\obj\Debug\lab2(spell corrector).exe
+C:\Users\Администратор\Desktop\dotNET\Labs\lab2(spell corrector)\lab2(spell corrector)\obj\Debug\lab2(spell corrector).pdb

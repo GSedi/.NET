@@ -1,0 +1,6 @@
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab1(3)\Lab1(3)\bin\Debug\Lab1(3).exe.config
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab1(3)\Lab1(3)\bin\Debug\Lab1(3).exe
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab1(3)\Lab1(3)\bin\Debug\Lab1(3).pdb
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab1(3)\Lab1(3)\obj\Debug\Lab1(3).csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab1(3)\Lab1(3)\obj\Debug\Lab1(3).exe
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab1(3)\Lab1(3)\obj\Debug\Lab1(3).pdb

@@ -1,0 +1,6 @@
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab2(Console)\Lab2(Console)\bin\Debug\Lab2(Console).exe.config
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab2(Console)\Lab2(Console)\bin\Debug\Lab2(Console).exe
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab2(Console)\Lab2(Console)\bin\Debug\Lab2(Console).pdb
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab2(Console)\Lab2(Console)\obj\Debug\Lab2(Console).csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab2(Console)\Lab2(Console)\obj\Debug\Lab2(Console).exe
+C:\Users\Администратор\Desktop\dotNET\Labs\Lab2(Console)\Lab2(Console)\obj\Debug\Lab2(Console).pdb

@@ -1,0 +1,5 @@
+C:\Users\Администратор\Desktop\dotNET\Labs\SortString\SortString\bin\Debug\SortString.exe.config
+C:\Users\Администратор\Desktop\dotNET\Labs\SortString\SortString\bin\Debug\SortString.exe
+C:\Users\Администратор\Desktop\dotNET\Labs\SortString\SortString\bin\Debug\SortString.pdb
+C:\Users\Администратор\Desktop\dotNET\Labs\SortString\SortString\obj\Debug\SortString.exe
+C:\Users\Администратор\Desktop\dotNET\Labs\SortString\SortString\obj\Debug\SortString.pdb
