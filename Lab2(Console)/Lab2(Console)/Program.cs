@@ -12,10 +12,9 @@ namespace Lab2_Console_
     {
     static void Main(string[] args)
         {
-
-          
             
-            string s1, s2;
+
+            /*string s1, s2;
             s1 = Console.ReadLine();
             s2 = Console.ReadLine();
 
@@ -37,7 +36,7 @@ namespace Lab2_Console_
 
 
             }
-            */
+            *//*
             int[,] dp = new int[s1.Length + 1, s2.Length + 1];
             string[,] ptr = new string[s1.Length + 1, s2.Length + 1];
             dp[0, 0] = 0;
@@ -145,7 +144,7 @@ namespace Lab2_Console_
 
            
             //sr.Close();
-
+            */
             Console.ReadKey();
         }
     }

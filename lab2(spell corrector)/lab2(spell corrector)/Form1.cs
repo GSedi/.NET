@@ -40,6 +40,7 @@ namespace lab2_spell_corrector_
         static List<string> answers = new List<string>();
         static List<string> temps_w = new List<string>();
         static List<string> temps_c = new List<string>();
+        static Dictionary<string, int> wds = new Dictionary<string, int>();
 
 
 
@@ -131,7 +132,7 @@ namespace lab2_spell_corrector_
 
         public void c_Checked(string text, string word, int n, int lol) {
             string ans = FindTheMinEditDistance(word);
-           
+            
             for (int i = 0; i < signs.Length; i++)
             {
                 if (lol - 1 > 0 && signs[i] == text[lol - 1]) ok = true;
@@ -174,7 +175,7 @@ namespace lab2_spell_corrector_
             string s_comp, ans = "";
             mini = 1000;
             int[,] dp = null;
-
+            wds.Clear();
             for (int k = 0; k < words.Count; k++) {
                 s_comp = words[k];
                 dp = new int[word.Length + 1, s_comp.Length + 1];
@@ -201,7 +202,8 @@ namespace lab2_spell_corrector_
                         }
                     }
                 }
-
+                wds.Add(s_comp, dp[word.Length, s_comp.Length]);
+                
                 if (dp[word.Length, s_comp.Length] <= mini)
                 {
                     mini = dp[word.Length, s_comp.Length];
@@ -465,6 +467,8 @@ namespace lab2_spell_corrector_
             Serialize();
             this.Close();
         }
+
+        
 
         static void Serialize()
         {
