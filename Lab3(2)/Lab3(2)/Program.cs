@@ -14,7 +14,7 @@ namespace Lab3_2_
         {
             string phonePattern = @"^((\(\d{3}\))|(\d{3}))[\s\-]?\d{3}[\s\-]?\d{4}$";
             string zip = @"^(\d{4})(\-\d{4})?$";
-            string email = @"^([a-z0-9_\.\-]+)@([a-z0-9_\.\-]+)\.([a-z\.]{2-6})$";
+            string email = @"^[a-z0-9_\.\-]+@[a-z]+\.[a-z]{2,6}$";
             string s;
             while (true) {
                 s = Console.ReadLine();

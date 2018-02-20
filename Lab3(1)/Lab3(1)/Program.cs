@@ -23,38 +23,44 @@ namespace Lab3_1_
             Stopwatch stopWatchListDicti = new Stopwatch();
             Stopwatch stopWatchHybDicti = new Stopwatch();
 
-            int cnt = 10000;
-            /*for (int i = 0; i < cnt; i++)
+            int cnt = 1000, hashCnt = 0, listCnt = 0, hybCnt = 0 ;
+            for (int k = 0; k < 999; k++)
             {
-                hashTable.Add(i, "OOP/.NET");
-                listDicti.Add(i, "OOP/.NET");
-                hybDicti.Add(i, "OOP/.NET");
+                stopWatchHashTable.Start();
+                for (int i = 0; i < cnt; i++) hashTable.Add(i, "OOP/.NET");
 
+                hashTable.Clear();
+                stopWatchHashTable.Stop();
+                TimeSpan tsHashTable = stopWatchHashTable.Elapsed;
+                hashCnt += tsHashTable.Milliseconds;
             }
-            */
-            stopWatchHashTable.Start();
-            for (int i = 0; i < cnt; i++) hashTable.Add(i, "OOP/.NET"); //Console.WriteLine(hashTable[i]);
-            stopWatchHashTable.Stop();
-            TimeSpan tsHashTable = stopWatchHashTable.Elapsed;
-            //string hashTableElapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-            //tsHashTable.Hours, tsHashTable.Minutes, tsHashTable.Seconds, tsHashTable.Milliseconds );
-            Console.WriteLine("RunTime HashTable" + tsHashTable);
+            
+            Console.WriteLine("RunTime HashTable " + hashCnt/1000);
+            for (int k = 0; k < 999; k++)
+            {
+                stopWatchListDicti.Start();
+                for (int i = 0; i < cnt; i++) listDicti.Add(i, "OOP/.NET");
 
-            stopWatchListDicti.Start();
-            for (int i = 0; i < cnt; i++) listDicti.Add(i, "OOP/.NET");  //Console.WriteLine(listDicti[i]);
-            stopWatchListDicti.Stop();
-            TimeSpan tsListDicti = stopWatchListDicti.Elapsed;
-            string ListDictiElapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-            tsListDicti.Hours, tsListDicti.Minutes, tsListDicti.Seconds, tsListDicti.Milliseconds);
-            Console.WriteLine("RunTime ListDicti" + ListDictiElapsedTime);
+                listDicti.Clear();
+                stopWatchListDicti.Stop();
+                TimeSpan tsListDicti = stopWatchListDicti.Elapsed;
+                listCnt += tsListDicti.Milliseconds;
+            }
+            
+            Console.WriteLine("RunTime ListDicti " + listCnt/1000);
+            for (int k = 0; k < 999; k++)
+            {
+                stopWatchHybDicti.Start();
+                for (int i = 0; i < cnt; i++) hybDicti.Add(i, "OOP/.NET");
 
-            stopWatchHybDicti.Start();
-            for (int i = 0; i < cnt; i++) hybDicti.Add(i, "OOP/.NET");  //Console.WriteLine(hybDicti[i]);
-            stopWatchHybDicti.Stop();
-            TimeSpan tsHybDicti = stopWatchHybDicti.Elapsed;
-            string HybDictiElapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-            tsHybDicti.Hours, tsHybDicti.Minutes, tsHybDicti.Seconds, tsHybDicti.Milliseconds);
-            Console.WriteLine("RunTime HybDicti" + HybDictiElapsedTime);
+                hybDicti.Clear();
+                stopWatchHybDicti.Stop();
+                TimeSpan tsHybDicti = stopWatchHybDicti.Elapsed;
+
+                hybCnt += tsHybDicti.Milliseconds;
+            }
+            
+            Console.WriteLine("RunTime HybDicti " + hybCnt/1000);
 
             Console.ReadKey();
         }
